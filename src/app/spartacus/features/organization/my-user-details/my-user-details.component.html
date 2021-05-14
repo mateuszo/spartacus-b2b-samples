@@ -1,0 +1,5 @@
+<cx-org-card>
+  <div main *ngIf="model$ | async as model">
+    <pre>{{ model | json }}</pre>
+  </div>
+</cx-org-card>
