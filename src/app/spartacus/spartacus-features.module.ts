@@ -88,6 +88,7 @@ import { UserFeatureModule } from './features/user/user-feature.module';
     //#endregion
     OrganizationAdministrationFeatureModule,
     OrganizationOrderApprovalFeatureModule,
+    // MyUserListModule
   ]
 })
 export class SpartacusFeaturesModule { }
